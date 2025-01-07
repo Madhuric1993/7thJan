@@ -1,0 +1,21 @@
+cssSelector()
+--------------
+
+Css is stand for Cascading Style Sheet
+Css is one of trhe locators in selenium
+Syntax: Tagname[locator='locator value'] or *[locator = 'value'] or [locator = 'value']
+
+
+email: input[id='email']
+password: *[name='pass']
+Login: *[name='login']
+
+Wild/Special Characters in CSS (^, $, *)
+
+'^' means start of the string : label[name^='ex']
+'$' means the end of the string : label[name$='le']
+'*' means contain the string : label[name*='mp']
+
+Limitation: We can't use the text method or it doesn't support any method like text, contains.
+
+Advantages: CSS selector is simpler and faster than xpath, Syntax is easier than xpath.
